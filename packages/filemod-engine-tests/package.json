@@ -1,0 +1,21 @@
+{
+	"name": "filemod-engine-tests",
+	"version": "1.2.0",
+	"description": "",
+	"bin": {},
+	"scripts": {
+		"test": "mocha"
+	},
+	"keywords": [],
+	"author": "KhulnaSoft Ltd.",
+	"dependencies": {
+		"@deepcode-ai/filemod-engine": "workspace:filemod-engine"
+	},
+	"devDependencies": {
+		"@types/glob": "8.0.1",
+		"@types/mocha": "^10.0.1",
+		"glob": "8.1.0",
+		"memfs": "3.4.13",
+		"mocha": "^10.2.0"
+	}
+}
